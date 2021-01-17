@@ -1,0 +1,8 @@
+cd D:\Dropbox\AdvenTour\Guides In Bulgaria\Site
+browser-sync start --server --files="**/*"
+
+git add .
+git commit -m "..."
+git push
+
+git clone https://github.com/PavelBG/....git
