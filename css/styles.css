@@ -1,7 +1,6 @@
 body {
 	font-family: PT Sans, Arial, Sans-Serif;
 	color: black;
-	background-color: #F0F0F2;
 }
 
 /* pt-sans-regular - latin */
@@ -75,7 +74,7 @@ width: 100%;
 }
 
 #welcome {
-	top: 112px;
+	bottom: 292px;
 	color: white;
 	font-size: 46px;
 	font-weight: 600;

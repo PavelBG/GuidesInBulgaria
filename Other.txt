@@ -1,4 +1,4 @@
-cd D:\Dropbox\AdvenTour\Guides In Bulgaria\Site
+cd D:\Dropbox\AdvenTour\Guides In Bulgaria\GuidesInBulgaria
 browser-sync start --server --files="**/*"
 
 git add .
