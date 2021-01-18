@@ -105,7 +105,7 @@ width: 100%;
  	text-decoration: none;
 }
 
-#main-text {
+.main-text {
 font-size: 20px;
 font-weight: 400;
 line-height: 1.6;
@@ -130,7 +130,13 @@ overflow-wrap: break-word;
 
 #Why {
 	text-align: center;
-	
+}
+
+
+@media (max-width: 767px) {
+	#Why {
+		margin-bottom: 0px;
+	}
 }
 
 .panel-footer section {
@@ -140,3 +146,39 @@ overflow-wrap: break-word;
 .panel-footer hr {
     width: 50%;
   }
+
+.tours-content {
+	
+}
+
+.category-tile {
+	position: relative;
+	border-radius: 50px;
+	width: 375px;
+  	height: 250px;
+  	margin: 0 auto 32px;
+  	overflow: hidden;
+  	color: white;
+  	max-width: 375px;
+  	width: 100%;
+  	overflow-wrap: break-word;
+}
+
+.category-tile h3 {
+	position: absolute;
+	top: 0;
+  	right: 0;
+  	margin-top: 0;
+  	padding: 8px;
+	width: 100%;
+  	text-align: center;
+  	background-color: #000;
+  	opacity: .8;
+  	max-width: 375px;
+  	width: 100%;
+  	overflow-wrap: break-word;
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #1279BE;
+}
