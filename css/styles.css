@@ -117,6 +117,7 @@ margin-right: auto;
 padding-left: 16px;
 padding-right: 16px;
 max-width: calc(782px - 32px);
+overflow-wrap: break-word;
 }
 
 .panel-footer {
