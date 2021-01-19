@@ -216,10 +216,8 @@ width: 100%;
 	#Copyright {
 	 margin-top: 0;
 	}
+}
 
-.active {
-	color: red;
-	background: red;
-	background-color: red;
-	border: 1px solid red;
+.navbar-default .navbar-nav > .active > a {
+    background-color: #F99F39;
 }
