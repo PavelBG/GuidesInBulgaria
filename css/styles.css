@@ -217,6 +217,9 @@ width: 100%;
 	 margin-top: 0;
 	}
 
-.nav-list .active a {
-    background-color: red !important;
+.active {
+	color: red;
+	background: red;
+	background-color: red;
+	border: 1px solid red;
 }
