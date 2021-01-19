@@ -106,36 +106,54 @@ width: 100%;
 }
 
 .main-text {
-font-size: 20px;
-font-weight: 400;
-line-height: 1.6;
-color: black;
-margin-top: 32px;
-margin-bottom: 32px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 16px;
-padding-right: 16px;
-max-width: calc(782px - 32px);
-overflow-wrap: break-word;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: black;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	max-width: calc(782px - 32px);
+	overflow-wrap: break-word;
 }
 
 .panel-footer {
 	background-color: #CDCDCD;
 }
 
-.text-center {
-	margin-top: 16px;
+@media (max-width: 767px) {
+	#Why section {
+	margin-top: -10px;
+	}
 }
 
-#Why {
-	text-align: center;
+#Why span {
+	font-size: 16px;
+ 	margin-bottom: 10px;
 }
 
+#Why i {
+	font-size: 24px;
+ 	margin-bottom: 10px;
+}
 
 @media (max-width: 767px) {
-	#Why {
-		margin-bottom: 0px;
+	#Why i {
+	margin-bottom: 0px;
+	}
+}
+
+#Contact div {
+	font-size: 16px;
+	margin-top: 10px;
+	}
+
+@media (max-width: 767px) {
+	#Contact div {
+	 margin-top: 0;
 	}
 }
 
@@ -146,6 +164,13 @@ overflow-wrap: break-word;
 .panel-footer hr {
     width: 50%;
   }
+
+  @media (max-width: 767px) {
+	.panel-footer hr {
+	margin-bottom: 5px;
+	margin-top: 10px;
+	}
+}
 
 .tours-content {
 	
@@ -182,3 +207,12 @@ overflow-wrap: break-word;
 .category-tile:hover {
   box-shadow: 0 1px 5px 1px #1279BE;
 }
+
+#Copyright {
+	 margin-top: 20px;
+	}
+
+@media (max-width: 767px) {
+	#Copyright {
+	 margin-top: 0;
+	}
