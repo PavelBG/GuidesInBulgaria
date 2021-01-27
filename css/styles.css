@@ -53,7 +53,7 @@ body {
  	margin-top: -30px;
 }
 
-#main-content {
+#home {
 	position: relative;
 	text-align: center;
 	width: 100%;
@@ -230,5 +230,5 @@ width: 100%;
 	max-width: calc(782px - 32px);
 	overflow-wrap: break-word;
 	clear: both;
-	text-align: center;
+	text-align: left;
 }
