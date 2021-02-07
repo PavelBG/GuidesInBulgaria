@@ -46,6 +46,7 @@ body {
 
  #nav-list a:hover {
  	background: #F99F39;
+ 	-webkit-transition:all 0.3s ease;
 }
 
 .navbar-header button.navbar-toggle {
@@ -103,6 +104,7 @@ width: 100%;
  #learn:hover {
  	background: #F99F39;
  	text-decoration: none;
+ 	-webkit-transition:all 0.3s ease;
 }
 
 .main-text {
@@ -202,6 +204,7 @@ width: 100%;
 
 .category-tile:hover {
   box-shadow: 0 1px 5px 1px #1279BE;
+  transform: scale(1.02);
 }
 
 #Copyright {
